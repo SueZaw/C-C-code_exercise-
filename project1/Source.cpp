@@ -13,6 +13,5 @@ int main() {
 	printf("Calculate weight on your destination planet:\n\n");
 	weight();
 	printf("\n\n");
-	
 	return 0;
 }
