@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 #include "Header.h"
-int main() {	
+int main() {
 	printf("This is Substitution Cipher <caesarcipher2>....\n\n");
 	caesar2();
 	printf("This is Caesacipher 1...\n\n");
@@ -14,4 +13,7 @@ int main() {
 	weight();
 	printf("\n\n");
 	return 0;
+	
+}
+
 }

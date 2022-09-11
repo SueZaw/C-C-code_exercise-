@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{13cafd02-39e8-42d5-b7c4-29baeef400ab}</ProjectGuid>
-    <RootNamespace>c</RootNamespace>
+    <ProjectGuid>{3244d07a-5752-4966-bbb3-1d33dcf0a692}</ProjectGuid>
+    <RootNamespace>stringManipulation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,8 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="caesarcipher1.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="strfuntions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="strManiHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
