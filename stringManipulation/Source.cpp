@@ -1,5 +1,6 @@
-#include <stdio.h>;
+#include <stdio.h>
 #include "strManiHeader.h"
+
 int main() {
 	char a[] = { 'p','r','o','g','r','a','m','\0' };
 char b[]= "programs";

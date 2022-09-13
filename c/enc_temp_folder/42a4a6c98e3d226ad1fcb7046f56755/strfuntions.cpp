@@ -1,6 +1,6 @@
 #include<stdio.h>
 //strlen2 
-int strlen2(char* arr)//return the length of string
+char* strlen2(char* arr)//return the length of string
 {
     int count = 0;
     while (arr[count] != '\0' && arr[count] != -52)
@@ -40,7 +40,7 @@ char* strcat2(char* destination,const char* source)
 
 */
  //strcmp
-/*int strcmp2(const char* str1, const char* str2)
+int strcmp2(const char* str1, const char* str2)
 {
     int count = 0;
     int str1_len = strlen2(str1);
@@ -68,4 +68,4 @@ char* strcat2(char* destination,const char* source)
         }
     }
     return str1[count] - str2[count];
-}*/
+}
