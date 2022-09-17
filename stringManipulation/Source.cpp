@@ -16,6 +16,7 @@ int main() {
 	char *l;
 	l = strupr(b);
 	printf("\n%s", l);
+
 	char* k;
 	k = strlwr(d);
 	printf("\n%s", k);

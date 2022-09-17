@@ -12,7 +12,7 @@ int strlen2(char* arr)//return the length of string
     return count;
 }
 //strcpy2
-char* strcpy2(char* destination, char* const source) {//copy string from source and paste it into destination
+char* strcpy2(char* destination, const char*  source) {//copy string from source and paste it into destination
     int count = 0;
     while (source[count] != '\0' && source[count] != -52)
     {
@@ -69,3 +69,45 @@ char* strcat2(char* destination,const char* source)
     }
     return str1[count] - str2[count];
 }*/
+char* strlwr(char* s)
+{
+    char* t = s;
+
+    if (!s)
+    {
+        return 0;
+    }
+
+    int i = 0;
+    while (*t != '\0')
+    {
+        if (*t >= 'A' && *t <= 'Z')
+        {
+            *t = *t + ('a' - 'A');
+        }
+        t++;
+    }
+
+    return s;
+}
+char* strupr(char* s)
+{
+    char* t = s;
+
+    if (!s)
+    {
+        return 0;
+    }
+
+    int i = 0;
+    while (*t != '\0')
+    {
+        if (*t >= 'a' && *t <= 'z')
+        {
+            *t = *t - ('a' - 'A');
+        }
+        t++;
+    }
+
+    return s;
+}
